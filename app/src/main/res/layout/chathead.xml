@@ -8,7 +8,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/chathead_img"
         android:src="@drawable/bobo2" />
-    
-   
 
 </RelativeLayout>

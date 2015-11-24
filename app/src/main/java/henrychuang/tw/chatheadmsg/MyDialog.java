@@ -28,8 +28,6 @@ public class MyDialog extends Activity {
 		
 		edt = (EditText) findViewById(R.id.dialog_edt);
 		btn = (Button) findViewById(R.id.dialog_btn);
-		top = (View)findViewById(R.id.dialog_top);
-				
 		myDialog = MyDialog.this;
 		
 		btn.setOnClickListener(new OnClickListener() {
@@ -46,16 +44,7 @@ public class MyDialog extends Activity {
 				}
 			}
 		});
-		
-		
-		top.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				finish();
-			}
-		});
+
 		
 	}
 		
